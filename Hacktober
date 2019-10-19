@@ -1,68 +1,20 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-body {
-  /*background-color: #ffd54f;*/
-  background: #d8d2cb;
-}
-.container {
-  color: #333;
-  text-align: center;
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Countdown Champ</title>
+</head>
+<body>
+  <div class="container">
+    <h1 id="head">Countdown to Project Deadline:</h1>
+    <ul>
+      <li><span id="days"></span>days</li>
+      <li><span id="hours"></span>Hours</li>
+      <li><span id="minutes"></span>Minutes</li>
+      <li><span id="seconds"></span>Seconds</li>
+    </ul>
+  </div>
 
-h1 {
-  font-weight: normal;
-}
-
-li {
-  display: inline-block;
-  font-size: 1.5em;
-  list-style-type: none;
-  padding: 1em;
-  text-transform: uppercase;
-}
-
-li span {
-  display: block;
-  font-size: 4.5rem;
-}
-/* general styling */
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-body {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Oxygen-Sans,
-    Ubuntu,
-    Cantarell,
-    "Helvetica Neue",
-    sans-serif;
-}
-
-.container {
-  margin: 0 auto;
-  border: 1px solid #000;
-  padding: 5rem;
-}
-.design {
-  padding: 10px;
-  width: 12em;
-  height: 11em;
-  border: 1px solid #000;
-  position: absolute;
-  left: 17rem;
-  top: 10rem;
-}
+  <script src="script.js"></script>
+</body>
+</html>
